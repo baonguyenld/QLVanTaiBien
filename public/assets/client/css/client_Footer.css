@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.footer{
+    height: 600px;
+    width: 100%;
+    background-color: #00378A;
+}
+.footer_title{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer_content{
+    font-size: 22px;
+}
+.footer_icon{
+    height: 27px;
+    color: bisque;
+}
+@media only screen and (max-width: 1800px) {
+    .footer_title{
+        font-size: 28px;
+    }
+    .footer_content{
+        font-size: 20px;
+    }
+    .footer_icon{
+        height: 26px;
+    }
+    .footer{
+        height: 580px;
+
+    }
+}
+@media only screen and (max-width: 1700px) {
+    .footer{
+        height: 560px;
+    }
+    .footer_title{
+        font-size: 26px;
+    }
+    .footer_content{
+        font-size: 18px;
+    }
+    .footer_icon{
+        height: 24px;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .footer{
+        height: 520px;
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .footer{
+        height: 500px;
+    }
+   
+}
+@media only screen and (max-width: 1400px) {
+    .footer{
+        height: 480px;
+    }
+    .footer_title{
+        font-size: 24px;
+    }
+    .footer_content{
+        font-size: 16px;
+    }
+    .footer_icon{
+        height: 22px;
+    }
+
+}
+@media only screen and (max-width: 1300px) {
+    .footer_title{
+        font-size: 22px;
+    }
+    
+}
+@media only screen and (max-width: 1200px) {
+    .footer{
+        height: 460px;
+    }
+    .footer_title{
+        font-size: 20px;
+    }
+    .footer_content{
+        font-size: 14px;
+    }
+    .footer_icon{
+        height: 20px;
+    }
+   
+}
+@media only screen and (max-width: 1100px) {
+
+    .footer_title{
+        font-size: 18px;
+    }
+    .footer_content{
+        font-size: 14px;
+    }
+    .footer_icon{
+        height: 18px;
+    }
+}

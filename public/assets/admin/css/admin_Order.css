@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.order{
+    transition: width 0.5s ease-in-out;
+}
+.table{
+    transition: width 0.5s ease-in-out;
+}
+.order_option
+{
+    height: 120px;
+}
+.order_option_add,.order_option_report{
+    height: 100px;
+    width: 150px;
+    background-color: white;
+}
+.option_content{
+    font-family: 'Open Sans', sans-serif;
+}
+.search_order{
+    font-size: 24px;
+    width: 500px;
+    height: 50px;
+    
+}
+.choice_img{
+    height: 50px;
+}
+.submit_Search_order{
+    height: 50px;
+    width: 125px;
+    font-size: 20px;
+    
+    font-family: 'Open Sans', sans-serif;
+    background-color: #D9D9D9;
+}
+.search_img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -42px;
+    
+}
+.order_view{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.modal_add{
+    width: 700px;
+}
+.modal-header{
+    background-color: #D9D9D9;
+    font-size: 20px;
+}
+.modal-title{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-close{
+    width: 30px;
+    height: 30px;
+}
+.form_add_submit,.form_add_close,
+.form_report_close,.form_report_submit
+,.form_export_close,.form_change_close,
+.form_change_submit,.form_delete_close,
+.form_delete_submit,.form_add_order_submit,
+.form_add_order_close,.form_change_order_submit,
+.form_change_order_close,.form_delete_order_submit,
+.form_delete_order_close{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.order_change_name,.order_change_id,
+.order_add_id,.order_delete_name,
+.order_delete_id,.order_delete_phone,
+.order_delete_email,.order_delete_date,
+.order_delete_order,.order_delete_receiver,
+.order_delete_address,.order_delete_quantity{
+    background-color: #D9D9D9;
+}
+.table_add_order tr,.table_change_order tr,.table_delete_order tr{
+    height: 65px;
+}
+.table_report_order tr{
+    height: 50px;
+}
+.table_export_order tr{
+    height: 50px;
+}
+.btn_change,.btn_delete{
+    background:none;
+}
+.structure::-webkit-scrollbar{
+    display: none;
+}
+.suggestionsOrderAddContract{
+    width: 40%;
+    height: 250px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgb(168, 168, 168);
+    margin-top: 1px;
+}
+.suggestionsOrderAddTrip{
+    width: 40%;
+    height: 250px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgb(168, 168, 168);
+    margin-top: 1px;
+}
+.suggestionsOrderChangeTrip{
+    width: 35%;
+    height: 500px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgb(168, 168, 168);
+    margin-top: 1px;
+}
+.suggestionsOrderSearch{
+    width: 10%;
+    margin-left: 0.5%;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgb(168, 168, 168);
+    margin-top: -3px;
+}
+.suggestion_item{
+    height: 45px;
+    padding-left: 5px;
+    align-items: center;
+    display: flex;
+}
+.suggestion_item:hover{
+    cursor: pointer;
+   background-color:rgb(230, 230, 230) ;
+}

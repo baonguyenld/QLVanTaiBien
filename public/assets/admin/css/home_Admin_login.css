@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/istockphoto-476502554-612x612.jpg");
+    background-size: cover;
+}
+.modal_signin{
+    width: 600px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+}
+.signin_header{
+    border-bottom: 1px solid black;
+    height: 75px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    background: #D2E4FF;
+}
+.signup_title{
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn_signin{
+    background-color: #BFFFA9;
+
+}

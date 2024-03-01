@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.title{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(119, 119, 119);
+
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100px;
+    background-image: url("../image/han-1 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contract
+{
+    height: 400px;
+    width: 80%;
+    border:  1px solid black;
+    border-top: none;
+}
+.input_contract{
+    width: 800px;
+    height: 200px;
+    font-size: 24px;
+    resize: none;
+}
+.btn_contract_submit{
+    background-color: #f53c3c;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    width: 220px;
+    height: 40px;
+    border:none;
+}
+.btn_contract_submit:hover{
+    background-color: #fa5f5f;
+    border: 3px solid rgb(121, 121, 121);
+}
+.line{
+    width: 100%;
+    border: 1px solid rgb(119, 119, 119);
+}
+.new{
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.new_img{
+    height: 50%;
+    width: 100%;
+}

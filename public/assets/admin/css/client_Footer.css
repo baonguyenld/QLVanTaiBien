@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.footer{
+    height: 600px;
+    width: 100%;
+    background-color: #00378A;
+}
+.footer_title{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer_content{
+    font-size: 22px;
+}
+.footer_icon{
+    height: 27px;
+    color: bisque;
+}

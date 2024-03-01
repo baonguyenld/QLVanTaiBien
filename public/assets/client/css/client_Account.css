@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.title{
+    height: 50px;
+    width: 275px;
+    background-color: #1D00B0;
+    border-top-right-radius: 50px;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 300px;
+    background-image: url("../image/han-1 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.account
+{
+    height: 400px;
+    width: 80%;
+    border:  1px solid black;
+    border-top: none;
+}
+.account_title{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.account_input{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid rgb(187, 187, 187);
+}
+.btn_account_change,.btn_account_takepass{
+    background: #c9c9c9;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.btn_account_change:hover,.btn_account_takepass:hover{
+    background: #a5a5a5;
+
+}

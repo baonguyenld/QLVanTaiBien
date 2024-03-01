@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.banner{
+    width: 100%;
+    height: 675px;
+    background-image: url("../image/han-1 1.png");
+}
+.group_services{
+    height: 200px;
+   
+}
+.service{
+    border: 1px solid black;
+   width: 280px;
+}
+.service_img{
+    width: 150px;
+    height: 150px;
+}
+.service_title{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+.overview_title{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+.overview_img{
+    height: 400px;
+    width: 1250px;
+    background-image: url("../image/khai-bao-thu-tuc-hao-quan214 1.png");
+}
+.overview_text{
+    width: 460px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.overview_button{
+    background-color: #74ABFF;
+    font-size: 20px;
+    margin-left: 150px;
+    height: 50px;
+    width: 120px;
+}
+.overview_service{
+    height: 400px;
+    width: 1400px;
+}
+.overview_service:nth-child(2)
+{
+    background-image: url("../image/8296_GettyImages-993273826cut2-1200x480 1.png");
+}
+.overview_service:nth-child(3)
+{
+    background-image: url("../image/shipping-containers-1024x682.jpg");
+}
+.overview_service:nth-child(4)
+{
+    background-image: url("../image/Schedule.jpg");
+    background-size: cover;
+
+}
+.overview_service:nth-child(5)
+{
+    background-image: url("../image/BV-Acharya-8.png");
+    background-size: cover;
+
+}
+.overview_service_title{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.overview_service_content{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+.overview_new{
+    height: 350px;
+    width: 650px;
+    border: 1px solid black;
+}
+.overview_new_title{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.overview_new_content{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn_news{
+    height: 75px;
+    width: 225px;
+    border: 2px solid black;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(116, 171, 255, 0.5);
+}

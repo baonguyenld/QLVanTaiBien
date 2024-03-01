@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.account{
+    transition: width 0.5s ease-in-out;
+}
+.table{
+    transition: width 0.5s ease-in-out;
+}
+.account_option
+{
+    height: 120px;
+}
+.account_option_add,.account_option_report{
+    height: 100px;
+    width: 150px;
+    background-color: white;
+}
+.account_option_add:hover,.account_option_report:hover{
+    background-color: #cacaca;
+}
+.option_content{
+    font-family: 'Open Sans', sans-serif;
+}
+.search_account{
+    font-size: 24px;
+    width: 500px;
+    height: 50px;
+    
+}
+.choice_img{
+    height: 50px;
+}
+
+.submit_Search_account{
+    height: 50px;
+    width: 125px;
+    font-size: 20px;
+    
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ebebeb;
+}
+.submit_Search_account:hover{
+    background-color: #cacaca;
+}
+.search_img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -42px;
+    
+}
+.account_view{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.modal_add{
+    width: 700px;
+}
+.modal-header{
+    background-color: #D9D9D9;
+    font-size: 20px;
+}
+.modal-title{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-close{
+    width: 30px;
+    height: 30px;
+}
+.form_add_submit,.form_add_close,
+.form_report_close,.form_report_submit
+,.form_export_close,.form_change_close,
+.form_change_submit,.form_delete_close,
+.form_delete_submit,.form_ban_submit,
+.form_ban_close,.form_info_close{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.account_change_name,.account_change_id,
+.account_add_id,.account_delete_name,
+.account_delete_id,.account_delete_phone,
+.account_delete_email,.account_delete_date{
+    background-color: #D9D9D9;
+}
+.table_add_account tr,.table_change_account tr,.table_delete_account tr{
+    height: 65px;
+}
+.table_report_account tr{
+    height: 50px;
+}
+.table_export_account tr{
+    height: 50px;
+}
+.btn_change,.btn_delete{
+    background:none;
+}
+.info_title{
+    width:200px
+}
+.input_info_id,.input_info_phone,.input_info_type{
+    width: 200px;
+}
+.input_info_name,.input_info_mail{
+    width: 250px;
+}
+.structure::-webkit-scrollbar{
+    display: none;
+}
+.suggestionsAccountSearch{
+    width: 10%;
+    margin-left: 0.5%;
+    border-radius: 5px;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    border: 1px solid rgb(168, 168, 168);
+    margin-top: -3px;
+}
+.suggestion_item{
+    height: 45px;
+    padding-left: 5px;
+    align-items: center;
+    display: flex;
+}
+.suggestion_item:hover{
+    cursor: pointer;
+   background-color:rgb(230, 230, 230) ;
+}
+@media only screen and (max-width: 1500px) {
+
+    .column_title{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-width: 1400px) {
+    .column_title{
+        font-size: 13px;
+    }
+    
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+.header{
+height: 120px;
+}
+.logo_img{
+    height: 110px;
+    width: 160px;
+    margin-left: -20px;
+}
+.logo_title{
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-left: -50px;
+    font-weight: 550;
+font-family: 'Open Sans', sans-serif;
+    color: #4839F4;
+}
+.header_right{
+    height: 100%;
+}
+.btn_sign_up{
+    height: 50px;
+font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    width: 90px;
+    background-color: #5FBDFF;
+    position: absolute;
+}
+.btn_sign_in{
+    height: 50px;
+    width:180px;
+    font-size: 16px;
+    background-color: #E0F4FF;
+font-family: 'Open Sans', sans-serif;
+    text-align: end;
+}
+.search_input{
+    height: 50px;
+    width: 200px;
+}
+.search_logo{
+    position: absolute;
+}
+
+.btn_overview,.btn_service,.btn_news,
+.btn_contact,.btn_support{
+    font-size: 20px;
+}
